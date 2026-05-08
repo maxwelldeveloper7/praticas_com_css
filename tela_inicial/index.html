@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Material Didático</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <h1>teste</h1>
+    <div class="background-animation"></div>
+    <div class="container">
+        <header class="glass-card">
+            <h1>Material Didático</h1>
+            <h2>Curso Técnico em Redes de Computadores</h2>
+        </header>
+        
+        <main class="grid-layout">
+            <div class="glass-card interactive" onclick="actionEffect(this)">
+                <h3>Infraestrutura Física de Redes</h3>
+            </div>
+            <div class="glass-card interactive" onclick="actionEffect(this)">
+                <h3>Oficina de Montagem e Conexão</h3>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
